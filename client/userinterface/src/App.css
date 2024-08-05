@@ -1,0 +1,293 @@
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.app-container {
+  height: 100%;
+  display: flex;
+  width: 100%;
+}
+.routes_dashboard{
+  width: 100% !important;
+}
+.chart{
+  width: 500px !important;
+  height: 300px !important;
+}
+.chart_heading{
+  font-size: 20px;
+  line-height: 27px;
+  color: #010202;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+/* Login Css */
+.login_project_name{
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 16px;
+  line-height: 22px;
+}
+.login_started_heading{
+  color: #3F3F3F;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+.login_email_name{
+  font-size: 14px;
+  color: #767676;
+  line-height: 19px;
+}
+.login_input_email{
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: #979797 !important;
+  border-radius: 6px  !important;
+}
+.login_input_password{
+  border-width: 1px 0px 1px 1px !important;
+  border-style: solid !important;
+  border-color: #979797 !important;
+  border-radius: 6px 0px 0px 6px !important;
+}
+.login_eye{
+  border-width: 1px 1px 1px 0px !important;
+  border-style: solid !important;
+  border-color: #979797 !important;
+  background-color: #fff !important;
+  border-radius: 0px 6px 6px 0px !important;
+}
+.login_btn{
+  background-color: #025AAB !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  border: none !important;
+}
+.login_forgot_pass{
+  color: #025AAB;
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+}
+.login_validation{
+  font-size: 14px !important;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+/* .projects_lists{
+  overflow: scroll !important;
+} */
+ .projects-container{
+  overflow-y: scroll;
+ }
+.project_list_start_btn{
+  padding: 3px 17px 3px 17px !important;
+  background-color: #025AAB !important;
+  border-radius: 18px !important;
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  line-height: 19px !important;
+}
+.project_list_close_btn {
+  padding: 3px 17px 3px 17px !important;
+  background-color: #ffffff !important;
+  border-radius: 18px !important;
+  color: #025AAB !important;
+  font-size: 14px !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  line-height: 19px !important;
+}
+.project_list_canc_btn{
+  padding: 3px 17px 3px 17px !important;
+  background-color: #ffffff !important;
+  border-radius: 18px !important;
+  color: #025AAB !important;
+  font-size: 14px !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  line-height: 19px !important;
+}
+.projectlist_data{
+  font-size: 14px !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  line-height: 19px !important;
+
+}
+.project_table_heading th{
+font-family: "Nunito Sans", sans-serif !important;
+font-size: 14px !important;
+line-height: 19px !important;
+color: #3F3F3F !important;
+background-color: #EBF5FF !important;
+}
+
+
+.projectlist_name{
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #414950 !important;
+  font-weight:700;
+}
+.projectlist_date{
+ color: #6B6B6B !important;
+ font-size: 14px !important;
+ line-height: 19px !important;
+ font-family: "Nunito Sans", sans-serif !important; 
+}
+
+.table>:not(caption)>*>* {
+  padding: .5rem .2rem !important;
+}
+
+
+/* Dashboard CSS */
+.dashboard_name{
+  font-size: 22px;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif !important; 
+  line-height: 30px;
+}
+.dashboard_totalProject{
+  color: #474D52;
+  font-size: 15px;
+  line-height: 20px;
+}
+.dashboard_totalProject_count{
+  font-size: 40px;
+  color: #474D52;
+}
+.dashboard_project_card{
+ border-left:6px solid #0CC9E8 !important;
+}
+
+
+
+
+/* Create Project CSS */
+.project_form_theme{
+  color: #979797 !important;
+  border-radius: 6px !important;
+  height: 50px !important;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+.project_form_dashbord_savebtn{
+  background-color: #025AAB !important;
+  border-radius: 18px !important;
+  color: #fff !important;
+  padding: 7px 22px 7px 22px !important;
+  cursor:  pointer !important;
+}
+.project_form_register{
+  color: #3F3F3F !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  /* margin-bottom:  0rem !important; */
+  font-family: "Nunito Sans", sans-serif !important; 
+  font-weight: 700;
+  margin-left: 5px !important;
+}
+.project_form_labels{
+  font-size: 14px !important;
+  color: #767676 !important;
+  line-height: 19px !important;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+.project_form_control{
+  border: 1px solid #979797 !important;
+  border-radius: 6px !important;
+  color: #3F3F3F !important;
+  font-size: 16px !important;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+
+.pegination_active_page{
+  background-color: #0CC9E8 !important;
+  border: none !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+.pegination_deactive_page{
+  background-color: #fff !important;
+  color: #000 !important;
+  border: none !important;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+.pegination_left_btn{
+  background-color: #fff !important;
+  border: none !important;
+  color: #010202 !important;
+  cursor:  pointer !important;
+}
+
+ .pegination_container{
+  margin-bottom: 55px !important;
+  margin-top: 0px !important;
+ }
+ .pegination_dots{
+  background-color: #fff !important;
+  border: none !important;
+  color: #000 !important;
+ }
+ .projectlist_data_seprate{
+  display: list-item;
+  /* margin-left : 1rem !important; */
+ }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+.login_mobile{
+  margin-left: -22px !important;
+  /* margin-top: -30px !important; */
+}
+.dashboard_scroll{
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  width: 100% !important;
+  overflow-y: scroll !important;
+}
+.chart{
+  width: 280px !important;
+}
+.chart_heading{
+  font-size: 16px;
+}    
+.project_form_dashbord_savebtn{
+  width: 100%;
+}
+.dashboard_name{
+white-space: nowrap ;
+}
+.create_project_mobile{
+  padding: 0px !important;
+}
+.project_form_main{
+  margin-bottom: 44px !important;
+  margin-left: 12px !important;
+  margin-right: 12px !important;
+}
+.project_list_mobile{
+  margin-bottom: 22px !important;
+}
+.projects_lists{
+  padding: 10px 10px 10px 10px !important;
+}
+}
